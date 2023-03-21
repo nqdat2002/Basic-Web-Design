@@ -1,0 +1,52 @@
+body{
+    width: 100vw;
+    height: 100wh;
+    background-color: bisque;
+}
+h5{
+    font-size: 13px;
+    color: blueviolet;
+    margin: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    text-decoration-line: underline;
+}
+
+.container{
+    width: 515px;
+    padding: 5px;
+    background-color: white;
+}
+
+.header{
+    width: 500px;
+    border: 7px solid red
+}
+
+#content{
+    width: 500px;
+    background-color: yellow;
+    border: 7px solid red;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.title{
+    background-color: rgb(218, 166, 160);
+    color: black;
+    font-size: 15px;
+    padding: 7px;
+    margin: 5px;
+    border: 1px solid green;
+}
+
+.footer{
+    width: 500px;
+    border: 7px dashed blue
+
+}
+
+
+
+
+

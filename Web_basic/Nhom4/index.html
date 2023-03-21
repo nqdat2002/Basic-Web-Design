@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Color in CSS</title>
+</head>
+
+<body>
+    <h1 class="first-heading">1. Hướng dẫn sử dụng màu nền, màu chữ</h1>
+    <h2 class="name-table">Bảng giá sản phẩm</h2>
+
+    <table class="content-table" border="1">
+        <thead class="content-table-header">
+            <tr>
+                <th>Loại</th>
+                <th>Tên mặt hàng</th>
+                <th>Giá cả</th>
+                <th>Trạng thái</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Quần</td>
+                <td>Quần Jean</td>
+                <td>200000</td>
+                <td>Còn hàng</td>
+            </tr>
+            <tr class="active-row">
+                <td>Áo</td>
+                <td>Sơ mi</td>
+                <td>250000</td>
+                <td>Hết hàng</td>
+            </tr>
+            <tr>
+                <td>Quần</td>
+                <td>Quần Kaki</td>
+                <td>150000</td>
+                <td>Còn hàng</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+    <br>
+    <br>
+
+    <h1 class="second-heading">2. Từ khóa về màu trong CSS</h1>
+
+    <h2>a) The transparent Keyword</h2>
+    <div class="transparent-keyword">This div has a light green background.</div>
+    <div class="non-transparent-keyword">This div has a transparent background.</div>
+    <br>
+    <br>
+
+
+    <h2>b) The curentcolor Keyword</h2>
+    <p>The currentcolor keyword refers to the current value of the color 
+        property of an element.</p>
+    <br>
+    <p>In this example the border color of the div element will be blue, 
+        because the text color of the div element is blue:</p>
+    <div class="curentcolor-keyword">This div element has a 
+        blue text color and a blue border.</div>
+    <br>
+    <br>
+
+
+
+
+
+    <h2>c) The inherit Keyword</h2>
+    <div class="inherit-keyword">Here, the <span>span element's</span> border settings 
+        will be inherited from the parent element.</div>
+    <br>
+
+    <div class="inherit-keyword" style="border:2px dotted blue;">Here, 
+        the <span>span element's</span> border settings
+        will also be inherited from the parent element.</div>
+
+    <br>
+    <br>
+    <br>
+
+</body>
+
+</html>

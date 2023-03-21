@@ -1,0 +1,17 @@
+.image{
+    width: 1000px;
+    height: 200px;
+    background-color: #96e9f7;
+    margin: 100px;
+    background-clip: padding-box;
+    padding-bottom: 500px;
+    border-color: rgb(3, 61, 91);
+    border:dotted 30px;
+    background-image: url(https://i.gifer.com/2yao.gif), url(https://starpng.com/public/uploads/preview/tree-png-pic-11583912224jidiimmkm0.png),
+    url(https://i.gifer.com/origin/f1/f15f8eb62d7e7cad9d365b9292922fa8_w200.gif),
+    url(https://i.pinimg.com/originals/b6/e1/91/b6e1919647d7247bb9bc582353f90f5c.gif);
+    background-size: 200px, 400px,95px,200px;
+    background-position: right top, bottom left, top 220px left 130px, bottom center;
+    background-repeat: repeat-x, no-repeat, no-repeat,no-repeat, no-repeat;
+    border: rgb(3, 61, 91) 30px dotted;  
+}   

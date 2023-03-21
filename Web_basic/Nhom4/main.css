@@ -1,0 +1,50 @@
+* {
+    font-family: sans-serif;
+    background-color: rgba(127, 255, 212, 0.443);
+}
+.content-table-header{
+    background-color: rgba(0, 255, 255, 0.969);
+    color: brown;
+}
+.active-row{
+    background-color: rgba(255, 0, 0, 0.478);
+    color: rgb(8, 0, 255);
+}
+
+.transparent-keyword{
+    color: transparent;
+}
+
+.curentcolor-keyword{
+    color: hsla(240, 100%, 50%, 0.66);
+    border:2px solid currentcolor;
+}
+
+.inherit-keyword{
+    border: 3px solid #ff000097;
+}
+
+span{
+    border: inherit;
+}
+
+
+/* .content-table-header{
+    color: #c7272c;
+    font-size: 30px;
+    background-color: rgb(112, 237, 202);
+    background-color: #30d0d0FF;
+}
+
+.active-row{
+    color: rgb(12, 170, 117);
+    background-color: antiquewhite;
+} */
+
+/* .irherit-keyword {
+    border: 2px solid red;
+}
+  
+span {
+    border: inherit;
+} */
